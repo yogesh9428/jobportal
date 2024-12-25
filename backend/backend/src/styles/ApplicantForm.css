@@ -1,0 +1,115 @@
+/* Global reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Body Styling */
+body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(45deg, #f1f1f1, #d3e0e9); /* Soft gradient background */
+    color: #333;
+    flex: 1;
+}
+
+/* Styling the form container */
+.form-container {
+    width: 100%;
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 40px;
+    background-color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center;
+    background: linear-gradient(135deg, #f9f9f9, #f1f1f1); /* Light background */
+}
+
+h2 {
+    font-size: 2.5rem;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+
+/* Styling the input fields */
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    font-size: 16px;
+    margin-bottom: 8px;
+    display: block;
+    font-weight: bold;
+    color: #444;
+}
+
+input {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f7f7f7;
+    margin-top: 5px;
+    transition: all 0.3s ease;
+}
+
+input:focus {
+    border-color: #6c5ce7;
+    background-color: #fff;
+    outline: none;
+}
+
+/* Submit button styling */
+button {
+    width: 100%;
+    padding: 14px;
+    font-size: 18px;
+    background-color: #6c5ce7;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-top: 20px;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #5e4bc1;
+    transform: translateY(-3px);
+}
+
+/* Error and Success messages */
+.error-message, .success-message {
+    font-size: 1.1rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #e74c3c;
+    text-align: center;
+}
+
+.success-message {
+    color: #2ecc71;
+}
+
+/* Footer Styling */
+footer {
+    width: 100%;
+    padding: 15px;
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    font-size: 14px;
+    border-top: 1px solid #ddd;
+    margin-top: auto;
+}
